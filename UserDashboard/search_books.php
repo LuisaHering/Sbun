@@ -41,22 +41,25 @@ $result = mysqli_query($connection, $query);
     </script>
     <style>
         body {
-            background: rgba(245, 245, 245, 0.4);
-            background-image: url("https://img.freepik.com/free-photo/abundant-collection-antique-books-wooden-shelves-generated-by-ai_188544-29660.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704240000&semt=sph");
-        }
+            background: #B5C39F;
+    background-image: url("https://i.postimg.cc/6q46q7MH/Sbun-Girl-amp-BG-2.jpg");
+	background-size: cover; /* Add this line */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-attachment: fixed; /* Optional: Makes the background image fixed during scroll */
+    background-position: right bottom; /* Aligns the image to the bottom right */} }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="user_dashboard.php">Library Management System (sbun)</a>
+                <a class="navbar-brand" href="user_dashboard.php">SBUN</a>
             </div>
             <span style="color: white"><strong>Welcome: <?php echo $_SESSION['name'];?></strong></span>
             <span style="color: white"><strong>Email: <?php echo $_SESSION['email'];?></strong></span>
-            <form action="search_books.php" method="get">
-                <input type="text" name="search" placeholder="Search for books..." required>
-                <button type="submit">Search</button>
+            <form action="search_books.php" method="get" class="form-inline">
+                <input type="text" name="search" placeholder="Search for books..." required class="form-control mr-sm-2">
+                <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item dropdown">

@@ -20,7 +20,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
 		<div class="container-fluid"> 
 			<div class="navbar-header"> 
-				<a class="navbar-brand" href="admin_dashboard.php">Library Management System (sbun)</a> 
+				<a class="navbar-brand" href="admin_dashboard.php">SBUN</a> 
 			</div> 
 			<font style="color: white"><span><strong>Welcome: <?php echo $_SESSION['name'];?></strong></span></font> 
 			<font style="color: white"><span><strong>Email: <?php echo $_SESSION['email'];?></strong></font> 
@@ -41,7 +41,7 @@
 			</ul> 
 		</div> 
 	</nav><br> 
-	<span><marquee>This is library mangement system. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br> 
+	<span><marquee>Esse é o SBUN. A biblioteca está aberta das 8 até as 21.</marquee></span><br><br> 
 		<center><h4>Registered Book's Category</h4><br></center> 
 		<div class="row"> 
 			<div class="col-md-2"></div> 

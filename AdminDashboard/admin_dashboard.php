@@ -16,7 +16,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
 		<div class="container-fluid"> 
 			<div class="navbar-header"> 
-				<a class="navbar-brand" href="admin_dashboard.php">sbun (sbun)</a> 
+				<a class="navbar-brand" href="admin_dashboard.php">SBUN</a> 
 			</div> 
 			<font style="color: white"><span><strong>Welcome: <?php echo $_SESSION['name'];?></strong></span></font> 
 			<font style="color: white"><span><strong>Email: <?php echo $_SESSION['email'];?></strong></font> 

@@ -31,9 +31,16 @@
     </script>
 </head>
 <style type="text/css">
+.bg-dark {
+    background-color:#386b7c !important;
+	}
 body {
-    background: rgba(245, 245, 245, 0.4);
-    background-image: url("https://img.freepik.com/free-photo/abundant-collection-antique-books-wooden-shelves-generated-by-ai_188544-29660.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704240000&semt=sph");
+    background: #B5C39F;
+    background-image: url("https://i.postimg.cc/6q46q7MH/Sbun-Girl-amp-BG-2.jpg");
+    background-size: cover; /* Add this line */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-attachment: fixed; /* Optional: Makes the background image fixed during scroll */
+    background-position: right bottom; /* Aligns the image to the bottom right */
 }
 </style>
 
@@ -41,7 +48,7 @@ body {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="admin_dashboard.php">Library Management System (sbun)</a>
+                <a class="navbar-brand" href="admin_dashboard.php">SBUN</a>
             </div>
             <font style="color: white"><span><strong>Welcome: <?php echo $_SESSION['name'];?></strong></span></font>
             <font style="color: white"><span><strong>Email: <?php echo $_SESSION['email'];?></strong></font>

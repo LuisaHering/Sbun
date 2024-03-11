@@ -17,10 +17,16 @@
 		background: rgba(245, 245, 245, 0.9); 
 		padding: 50px; 
 	} 
+	.bg-dark {
+    background-color:#386b7c !important;
+	}
 	body{ 
-	background: rgba(245, 245, 245, 0.4); 
-	background-image: url("https://img.freepik.com/free-photo/abundant-collection-antique-books-wooden-shelves-generated-by-ai_188544-29660.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704240000&semt=sph"); 
-} 
+	background: #B5C39F;
+    background-image: url("https://i.postimg.cc/6q46q7MH/Sbun-Girl-amp-BG-2.jpg");
+	background-size: cover; /* Add this line */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-attachment: fixed; /* Optional: Makes the background image fixed during scroll */
+    background-position: right bottom; /* Aligns the image to the bottom right */} 
 </style> 
 <body> 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
@@ -43,22 +49,23 @@
 	</nav> 
 	<div class="row"> 
 		<div class="col-md-4" id="side_bar"> 
-			<h5>Today's Quote</h5> 
-			<h6>“There is more treasure in books than in all the pirate's loot on Treasure Island"</h6> 
-			<p>~ Walt Disney</p> 
-			<h5>Library Timing</h5> 
+			<h5>Citação do Dia</h5> 
+			<h6>“Não há fatos eternos, como não há verdades absolutas.”</h6> 
+			<p>~ Friedrich Nietzsche</p> 
+			<h5>Horário da Biblioteca</h5> 
 			<ul> 
-				<li>Opening: 9:00 AM</li> 
-				<li>Closing: 12:00 PM</li> 
+				<li>Abertura: 9:00</li> 
+				<li>Fechamento: 12:00</li> 
 			</ul> 
-			<h5>What We provide ?</h5> 
+			<h5>O que Oferecemos?</h5> 
 			<ul> 
-				<li>AC Rooms</li> 
-				<li>Free Wi-fi</li> 
-				<li>Learning Environment</li> 
-				<li>Discussion Room</li> 
-				<li>Free Electricity</li> 
-			</ul> 
+				<li>Salas com AC</li> 
+				<li>Wi-fi Gratuito</li> 
+				<li>Ambiente de Aprendizagem</li> 
+				<li>Sala de Discussão</li> 
+				<li>Energia Gratuita</li> 
+			</ul>
+
 		</div> 
 		<div class="col-md-8" id="main_content"> 
 			<center><h3><u>User Registration Form</u></h3></center> 
